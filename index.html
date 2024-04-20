@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Image Engine Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+    <!--defer tells the browser to wait until the page has finished parsing before executing the script-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="lightbox">
+        <div class="wrapper">
+            <header>
+                <div class="photographer">
+                    <i class="ri-camera-3-line"></i>
+                    <span></span>
+                </div>
+                <div class="buttons">
+                    <i class="ri-download-2-line"></i>
+                    <i class="ri-close-line"></i>
+                </div>
+            </header>
+            <div class="preview-img">
+                <div class="img"><img src="" alt="preview-img"></div>
+            </div>
+        </div>
+    </div>
+    <section class="search">
+        <img src="images/search-img.jpg" alt="search-img">
+        <div class="content">
+            <h1>Image Gallery</h1>
+            <p>Search and download any images within a second!</p>
+            <div class="search-box">
+                <i class="ri-search-line"></i>
+                <input type="text" placeholder="Search for any image..">
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <ul class="images"></ul>
+        <button class="load-more">Load More</button>
+    </section>
+    
+</body>
+</html>
